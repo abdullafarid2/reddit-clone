@@ -90,7 +90,7 @@ function PostPage() {
         </form>
       </div>
 
-      <div className="-my-5 rounded-b-md border border-t-0 border-gray-300 bg-white py-5 px-10">
+      <div className="-my-5 rounded-b-md border border-t-0 border-gray-300 bg-white py-5 px-10 mb-5">
         <hr className="py-2" />
 
         {post?.comments.map((comment) => (
