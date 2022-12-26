@@ -27,7 +27,7 @@ function Header() {
         <Link href="/">
           <Image
             objectFit="contain"
-            src="https://links.papareact.com/fqy"
+            src="https://logos-world.net/wp-content/uploads/2020/10/Reddit-Logo.png"
             layout="fill"
           />
         </Link>
