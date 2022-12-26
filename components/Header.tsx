@@ -32,14 +32,14 @@ function Header() {
           />
         </Link>
       </div>
-
-      <div className="flex items-center mx-7 xl:min-w-[300px]">
-        <Link href="/">
+      
+      <Link href="/">
+        <div className="flex items-center mx-7 xl:min-w-[300px]">
           <HomeIcon className="h-5 w-5 cursor-pointer" />
           <p className="flex-1 ml-2 hidden lg:inline">Home</p>
-        </Link>
-        <ChevronDownIcon className="h-5 w-5 cursor-pointer" />
+          <ChevronDownIcon className="h-5 w-5 cursor-pointer" />
       </div>
+     </Link>
 
       {/* Search */}
       <form className="flex flex-1 items-center space-x-2 border border-gray-200 rounded-sm bg-gray-100 px-3 py-1">
